@@ -33,7 +33,6 @@ const config: Config = {
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
       },
-
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)" },

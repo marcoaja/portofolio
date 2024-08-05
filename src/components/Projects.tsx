@@ -1,4 +1,3 @@
-"use client";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
