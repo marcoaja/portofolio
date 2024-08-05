@@ -68,13 +68,13 @@ export const Navbar = () => {
             Projects
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/marcoaja"
             className="transition-all duration-300 hover:-translate-y-[2px]"
           >
             <IoLogoGithub className="text-3xl" />
           </a>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/yeshuamarco"
             className="transition-all duration-300 hover:-translate-y-[2px]"
           >
             <IoLogoLinkedin className="text-3xl" />
@@ -123,13 +123,13 @@ export const Navbar = () => {
                 Projects
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/marcoaja"
                 className="transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <IoLogoGithub className="text-3xl" />
               </a>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/yeshuamarco"
                 className="transition-all duration-300 hover:-translate-y-[2px]"
               >
                 <IoLogoLinkedin className="text-3xl" />
