@@ -118,7 +118,7 @@ export const Navbar = () => {
               </a>
               <a
                 href="#projects"
-                className="hover:text-primary-300 hover:-translate-y-[2px] transition-all duration-300  "
+                className="hover:text-primary-300 hover:-translate-y-[2px] transition-all duration-300"
               >
                 Projects
               </a>

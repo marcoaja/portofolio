@@ -38,9 +38,9 @@ export const ProjectCard = ({
               <Image
                 key={tech}
                 src={`/icon/${tech}.svg`}
-                alt=""
-                width={48}
-                height={48}
+                alt={title}
+                width={36}
+                height={36}
               />
             ))}
           </div>

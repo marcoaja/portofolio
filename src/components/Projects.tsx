@@ -13,7 +13,7 @@ export const Projects = () => {
     {
       id: 2,
       img: "/porto2.png",
-      title: "A simpe online store with search feature.",
+      title: "A simple online store with search feature.",
       description: "Made with HTML, CSS, Javascript, and CodeSandBox",
       techImages: ["html", "css", "javascript"],
       link: "https://l9c858.csb.app/",
@@ -23,7 +23,7 @@ export const Projects = () => {
       img: "/porto3.png",
       title:
         "A working Restaurant App with admin menu, customer menu, and login page.",
-      description: "Made with HTML, CSS, and CodeSandBox",
+      description: "Made with Java and CSS",
       techImages: ["java", "css"],
       link: "",
     },
