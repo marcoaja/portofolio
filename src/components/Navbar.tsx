@@ -92,7 +92,10 @@ export const Navbar = () => {
 
       {/* Smaller Screen Navbar */}
       {open && (
-        <div className="bg-transparent h-screen" onClick={handleClick}>
+        <div
+          className="md:hidden bg-transparent h-screen"
+          onClick={handleClick}
+        >
           <div
             className={
               open
@@ -100,7 +103,7 @@ export const Navbar = () => {
                 : "fixed bottom-[-9999px]"
             }
           >
-            <div className="flex flex-col items-center gap-8 p-8 font-semibold text-xl">
+            <div className="flex flex-col h-full justify-center items-center gap-8 p-8 font-semibold text-2xl">
               <a
                 href="#home"
                 className="hover:text-primary-300 hover:-translate-y-[2px] transition-all duration-300"
