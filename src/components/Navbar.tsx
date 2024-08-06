@@ -16,15 +16,13 @@ export const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  const activeClasses = [
+  const scrolledNavbar = [
     "max-w-fit",
     "gap-20",
     "rounded-full",
@@ -41,10 +39,13 @@ export const Navbar = () => {
       <div
         ref={navbarRef}
         className={`mx-auto flex w-full justify-around items-center p-2 ${
-          isScrolled ? activeClasses : ""
+          isScrolled ? scrolledNavbar : ""
         }`}
       >
-        <div className=" text-primary-50 text-4xl font-bold px-6 py-4">
+        <div
+          className=" text-primary-50 text-2xl md:text-4xl font-bold px-6 py-4"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           MARCO.
         </div>
 
