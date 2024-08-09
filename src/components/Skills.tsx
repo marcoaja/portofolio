@@ -4,7 +4,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="mt-48 pt-12 pb-16 bg-primary-50 shadow-inner"
+      className="mt-48 pt-12 pb-16 bg-primary-50 shadow-inner scroll-mt-32"
     >
       <div className="container">
         <div className="w-full px-4">
